@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-compatible" Content="IE-edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title> Stakater </title>
+
+  <link rel="icon" href="images/fav.png" type="image/png" sizes="16x16">
+
+   <link href="css/bootstrap.css" rel="stylesheet">
+   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <link href="css/style.css" rel="stylesheet">
+
+    <script type="text/javascript" src="js/jquery3.js"></script>
+    
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    
+    <script type="text/javascript" src="js/sliderfun.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
+
+</head>
+  
+<body>
+
+<header class="stakater_header">
+  
+<nav class="navbar navbar-inverse stakater_navbar">
+  
+  <div class="container">
+    
+  <div class="navbar-header">
+    
+    <button id="ChangeToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#primary-nav" aria-expanded="false">
+      
+      <div id="navbar-hamburger">
+
+        <span class="sr-only"> toggle navigation </span>
+
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+
+        
+      </div>
+      
+      <div id="navbar-close" class="hidden">
+       
+       <span class="cross"> X  </span>
+
+        </div>
+
+    </button>
+
+    <a href="#" class="navbar-brand"> 
+     
+     <img src="images/logo.png" alt=""> 
+      
+     </a>
+
+  </div>
+
+  <div class="collapse navbar-collapse" id="primary-nav">
+    
+    <ul class="nav navbar-nav navbar-right nav-links text-uppercase">
+
+    <li> <a href="#"> Home </a> </li>
+    <li> <a href="#"> launch </a> </li>
+    <li> <a href="#"> services </a> </li>
+    <li> <a href="#"> team </a> </li>
+    <li> <a href="#"> open source </a> </li>
+    <li> <a href="#"> contact </a> </li>
+
+    </ul>
+
+  </div>
+
+  </div>
+</nav>
+
+<div class="container">
+  
+   
+   <div class="row">
+
+    <div class="col-md-6 col-sm-6">
+     
+     <div class="our_projects_container">
+        
+        <h1> Our Projects </h1> 
+
+        <p> It is our great desire to make Kubernetes more accessible to 
+         <br>
+         developers and engineers, through projects that provide 
+         <br>  
+         additional 
+       functionality on top of Kubernetes. We hope these 
+          <br>
+       projects will
+        further ease the adoption of Kubernetes.</p>
+
+
+      </div> 
+     
+    </div>
+    
+    <div class="col-md-6 col-sm-6">
+
+      <div class="illus_img_box">
+
+        <img src="images/ill.png" class="img-responsive" alt="">
+
+      </div>
+
+    </div>
+    
+   </div>
+
+   <div class="row">
+
+    <div class="col-md-2 col-sm-12">
+      
+    </div>
+
+    <div class="col-md-8 col-sm-12">
+      
+      <div class="form_container">
+        
+        <form method="get">
+
+          <div class="row">
+
+            <div class="col-md-1 col-sm-1 col-xs-1">
+              
+            </div>
+
+            <div class="col-md-4 col-sm-12 col-xs-12">
+              
+              <h5>Get notified when we release 
+new open source goodies</h5>
+
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12">
+
+              <div class="row">
+                
+                <div class="col-md-7 col-md-offset-0 col-sm-7 col-xs-8 col_small_mobile col-sm-offset-1">
+                  
+                  <input type="email" class="form-control email" placeholder="Leave us your e-mail" name="">
+
+                </div>
+
+                <div class="col-md-5 col-sm-4 col-xs-4 col_small_mobile">
+
+                  <button type="submit" class="btn btn-success btn-block btn_submit"> submit </button>
+                  
+                </div>
+
+              </div>
+              
+            </div>
+            
+          </div>
+        
+        
+      </form>
+
+      </div>
+
+    </div>
+
+    <div class="col-md-2 col-xs-2 col-sm-12">
+      
+    </div>
+     
+   </div>
+
+
+    
+</div>
+
+
+</header>
+<!-- /header -->
+
+
+<!-- git projects section -->
+      
+       <section class="Controller_section2 desktop_version">
+         
+         <div class="container">
+
+          <div class="row">
+
+            <div class="col-md-2">
+              
+            </div>
+
+            <div class="col-md-4 col-sm-6 col_tablet_content">
+
+            <div class="ingresses_content">
+
+               <h3>Ingress Monitor Controller </h3> 
+
+             <h5> A Kubernetes Controller to watch your ingresses 
+              <br>
+and create liveness alerts for your endpoints. </h5>
+
+              <p>
+
+                This controller will continuously watch ingresses in the namespace it is running, and automatically add / remove monitors in any of the uptime checkers. With the help of this solution, you can keep a check on your services and see whether they're up and running and live.
+
+              </p>
+
+              <button type="submit" class="btn btn-primary view view_hide_mobile"> View Details </button>
+              
+            </div>
+              
+            </div>
+
+            <div class="col-md-4 col-sm-6 col_project_box">
+
+              <div class="ingresses_box">
+
+                <img src="images/v1.png" class="img-responsive video_mobile" alt="">
+
+                <ul class="list-inline text-center forks_btn">
+                     
+                       <li> <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/watch" data-show-count="true" aria-label="Follow @watch on GitHub">Watch</a> </li>
+
+<li> <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ntkme/github-buttons" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a> </li>
+
+<li><!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ntkme/github-buttons/fork" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a></li>
+                     
+                     </ul>
+                
+              </div>
+
+              <button type="submit" class="btn btn-primary view view_hide_mobile2"> View Details </button>
+              
+              
+            </div>
+
+            <div class="col-md-2">
+              
+            </div>
+            
+          </div>
+
+         </div>
+
+      </section>
+
+<!--  tablet version  -->
+
+<section class="Controller_section2 tablet_version">
+         
+         <div class="container">
+
+          <div class="row">
+
+            <div class="col-md-2">
+              
+            </div>
+
+              <div class="col-md-6 col-xs-5 col_project_box tablet_right">
+
+              <div class="ingresses_box">
+
+                <img src="images/v1.png" class="img-responsive" alt="">
+
+                <ul class="list-inline text-center forks_btn">
+                     
+                       <li> <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/watch" data-show-count="true" aria-label="Follow @watch on GitHub">Watch</a> </li>
+
+<li> <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ntkme/github-buttons" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a> </li>
+
+<li><!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ntkme/github-buttons/fork" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a></li>
+                     
+                     </ul>
+                
+              </div>
+              
+            </div>
+
+            <div class="col-md-6 col-xs-7 col_tablet_content tablet_left">
+
+            <div class="ingresses_content">
+
+               <h3>Ingress Monitor Controller </h3> 
+
+             <h5> A Kubernetes Controller to watch your ingresses 
+              <br>
+and create liveness alerts for your endpoints. </h5>
+
+              <p>
+
+                This controller will continuously watch ingresses in the namespace it is running, and automatically add / remove monitors in any of the uptime checkers. With the help of this solution, you can keep a check on your services and see whether they're up and running and live.
+
+              </p>
+
+              <button type="submit" class="btn btn-primary view"> View Details </button>
+              
+            </div>
+              
+            </div>
+
+            <div class="col-md-2">
+              
+            </div>
+            
+          </div>
+
+         </div>
+
+      </section>
+
+      <!-- end of git projects section  -->
+
+    <!--git controller section -->
+     
+      <section class="Controller_section3 desktop_version2">
+         
+         <div class="container">
+
+          <div class="row">
+
+            <div class="col-md-2">
+              
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+
+              <div class="ingresses_box">
+
+                <img src="images/v2.png" class="img-responsive video_mobile" alt="">
+
+                <ul class="list-inline text-center forks_btn forks_btn1">
+                     
+                       <li> <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/watch" data-show-count="true" aria-label="Follow @watch on GitHub">Watch</a> </li>
+
+<li> <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ntkme/github-buttons" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a> </li>
+
+<li><!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ntkme/github-buttons/fork" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a></li>
+                     
+                     </ul>
+                
+              </div>
+              
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+
+            <div class="ingresses_content">
+
+               <h3>Git Webhook Proxy </h3> 
+
+             <h5> A proxy to let webhooks reach running services <br>  behind a firewall </h5>
+
+              <p>
+
+                Jenkins is awesome and matchless tool for both CI & CD; but unfortunately its a gold mine if left in wild with wide open access; so, we always want to put it behind a firewall. But when we put it behind firewall then webhooks don't work anymore and no one wants the pull based polling but rather prefer the build to start as soon as 
+              </p>
+
+
+               <div class="ingresses_box ingresses_box2">
+
+                <img src="images/v2.png" class="img-responsive video_mobile" alt="">
+
+                <ul class="list-inline text-center forks_btn forks_btn1">
+                     
+                       <li> <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/watch" data-show-count="true" aria-label="Follow @watch on GitHub">Watch</a> </li>
+
+<li> <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ntkme/github-buttons" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a> </li>
+
+<li><!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ntkme/github-buttons/fork" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a></li>
+                     
+                     </ul>
+                
+              </div>
+
+              <button type="submit" class="btn btn-primary view"> View Details </button>
+              
+            </div>
+              
+            </div>
+
+            
+
+            <div class="col-md-2">
+              
+            </div>
+            
+          </div>
+
+         </div>
+
+      </section>
+
+      <!-- tablet -->
+
+      <section class="Controller_section3 tablet_version2">
+         
+         <div class="container">
+
+          <div class="row">
+
+            <div class="col-md-2">
+              
+            </div>
+
+            <div class="col-md-6 col-xs-5 col-sm-5">
+
+              <div class="ingresses_box">
+
+                <img src="images/v2.png" class="img-responsive" alt="">
+
+                <ul class="list-inline text-center forks_btn">
+                     
+                       <li> <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/watch" data-show-count="true" aria-label="Follow @watch on GitHub">Watch</a> </li>
+
+<li> <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ntkme/github-buttons" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a> </li>
+
+<li><!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ntkme/github-buttons/fork" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a></li>
+                     
+                     </ul>
+                
+              </div>
+              
+            </div>
+
+            <div class="col-md-6 col-xs-7 col-sm-7">
+
+            <div class="ingresses_content">
+
+               <h3>Git Webhook Proxy </h3> 
+
+             <h5> A proxy to let webhooks reach running services <br>  behind a firewall </h5>
+
+              <p>
+
+                Jenkins is awesome and matchless tool for both CI & CD; but unfortunately its a gold mine if left in wild with wide open access; so, we always want to put it behind a firewall. But when we put it behind firewall then webhooks don't work anymore and no one wants the pull based polling but rather prefer the build to start as soon as 
+              </p>
+
+              <button type="submit" class="btn btn-primary view"> View Details </button>
+              
+            </div>
+              
+            </div>
+
+            
+
+            <div class="col-md-2">
+              
+            </div>
+            
+          </div>
+
+         </div>
+
+      </section>
+
+    <!-- end of git controller section -->
+
+    <!--  twitter section  -->
+      
+      <section class="gihub_container_overview">
+
+        <div class="container">
+
+          <div class="row">
+            
+            <div class="col-md-2 col-sm-12 col-xs-12">
+              
+            </div>
+
+            <div class="col-md-4">
+
+             
+              
+            </div>
+
+          
+            <div class="col-md-4">
+             
+             <div class="row">
+               
+               <div class="we_are_box">
+               
+               <h3> We are Open Source  </h3>
+
+               <p> Start Controlling your Contributions. </p>
+
+               <button type="submit" class="btn btn-warning git">
+                 
+                 <i class="fa fa-github">  </i>
+
+                 Visit our GitHub Repository 
+               </button>
+
+             </div>  
+
+
+             </div>
+              
+            </div>
+
+            <div class="col-md-2 col-sm-12 col-xs-12">
+              
+            </div>
+
+
+          </div>
+          
+        </div>
+        
+      </section>
+
+    <!--  twitter section  -->
+ 
+    <!-- footer -->
+    
+    <footer>
+
+      <div class="container">
+        
+        <div class="row">
+          
+          <div class="col-md-2 col-sm-1 col-xs-12">
+          
+        </div>
+
+        <div class="col-md-8 col-sm-10">
+
+          <div class="contact_box">
+
+            <div class="row">
+              
+              <div class="col-md-1 col-sm-1 col-xs-1">
+                
+              </div>
+
+              <div class="col-md-6 col-sm-12 col-xs-12">
+
+                <p>Create, manage and scale your <br> DevOps Environment with us!</p>
+                
+              </div>
+
+              <div class="col-md-1 col-sm-1 col-xs-12">
+                
+              </div>
+
+              <div class="col-md-3 col-sm-12 col-xs-12">
+
+                <button type="submit" class="btn btn-danger contact_btn">
+                  
+                  Contact us
+
+                </button>
+                
+              </div>
+
+            </div>
+            
+          </div>
+          
+        </div>
+
+        <div class="col-md-2 col-sm-1 col-xs-12">
+          
+        </div>
+
+        </div>
+
+
+        <div class="row">
+          
+          <div class="col-md-12">
+            
+            <div class="footer_content">
+              
+              <h3 class="text-center"> Stakater  </h3>
+
+              <ul class="list-inline footer_menu text-center">
+              
+                <li> <a href="#"> Home</a>  </li>
+                
+                <li> <a href="#"> Launch</a>   </li>
+                
+                <li> <a href="#"> Services</a>  </li>
+              
+                <li> <a href="#"> Team</a>  </li>
+                
+                <li> <a href="#"> Contact</a> </li>
+
+               </ul>
+
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-3 col-sm-12 col-xs-12">
+            
+          </div>
+
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            
+            <div class="row">
+
+              <div class="col-md-3 col-sm-12 col-xs-12">
+              
+                <h6 class="copy">©2017 Stakater.com</h6>               
+
+            </div>
+
+            <div class="col-md-5 col-xs-12">
+
+              <ul class="list-inline footer_icons_so text-center">
+                
+                <li class="copy"> <h6>Follow Us</h6> </li>
+
+                <li> <a href="#"> <i class="fa fa-twitter f_icons"> </i> </a> </li>
+                
+                <li> <a href="#"> <i class="fa fa-facebook f_icons"> </i> </a> </li>
+              
+              </ul>
+              
+            </div>
+
+            <div class="col-md-4 col-sm-12 col-xs-12">
+
+              <h6 class="email"> hello@stakater.com </h6>
+              
+            </div>
+              
+            </div>
+
+          </div>
+
+          <div class="col-md-3 col-xs-12">
+            
+          </div>
+          
+        </div>
+
+      </div>
+      
+    </footer>
+
+    <!-- footer -->
+    
+
+    <!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+</body>
+
+</html>

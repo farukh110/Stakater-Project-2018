@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-compatible" Content="IE-edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title> Stakater </title>
+
+  <link rel="icon" href="images/fav.png" type="image/png" sizes="16x16">
+
+   <link href="css/bootstrap.css" rel="stylesheet">
+   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <link href="css/style.css" rel="stylesheet">
+
+    <script type="text/javascript" src="js/jquery3.js"></script>
+    
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    
+    <script type="text/javascript" src="js/sliderfun.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
+
+</head>
+  
+<body>
+
+<header class="stakater_header">
+  
+<nav class="navbar navbar-inverse stakater_navbar">
+  
+  <div class="container">
+    
+  <div class="navbar-header">
+    
+    <button id="ChangeToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#primary-nav" aria-expanded="false">
+      
+      <div id="navbar-hamburger">
+
+        <span class="sr-only"> toggle navigation </span>
+
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+
+        
+      </div>
+      
+      <div id="navbar-close" class="hidden">
+          <span class="cross"> X  </span>
+
+        </div>
+
+    </button>
+
+    <a href="#" class="navbar-brand"> 
+     
+     <img src="images/logo.png" alt=""> 
+      
+     </a>
+
+  </div>
+
+  <div class="collapse navbar-collapse" id="primary-nav">
+    
+    <ul class="nav navbar-nav navbar-right nav-links text-uppercase">
+
+    <li> <a href="#"> Home </a> </li>
+    <li> <a href="#"> launch </a> </li>
+    <li> <a href="#"> services </a> </li>
+    <li> <a href="#"> team </a> </li>
+    <li> <a href="#"> open source </a> </li>
+    <li> <a href="#"> contact </a> </li>
+
+    </ul>
+
+  </div>
+
+  </div>
+</nav>
+
+<div class="container">
+  
+   <div class="ingress_container">
+
+   <h1 class="text-center"> Ingress Monitor Controller </h1>
+
+   <p class="text-center"> A kubernetes Controller to watch your ingresses and create
+          <br>
+          liveness alerts for your endpoints
+    </p>
+
+   </div>
+
+   <div class="row">
+
+    
+    <div class="col-md-12">
+      
+      <ul class="list-inline latest_release">
+
+        <li> <button type="submit" class="btn btn-success latest_btn"> Latest Release </button> </li>
+
+        <!-- <li> <span class="ingressM">IngressMonitorController</span> </li> -->
+
+        <li> 
+                  <a href="#" class="release_v">Release 1.0.7 <span class="badge badge-arrow"> <span class="fa fa-chevron-right right_arrow"></span> </span></a>
+         </li>
+
+      </ul>
+
+    </div>
+
+    <div class="col-md-4 col-sm-2">
+      
+    </div>
+
+    
+   </div>
+
+   <div class="row">
+    
+    <div class="col-md-3 col-sm-2">
+      
+    </div>
+
+    <div class="col-md-6 col-sm-8 git_body">
+      
+      <div class="git_container">
+        
+        <div class="row">
+
+          <div class="col-md-4 col-xs-4">
+
+            <div class="git_pro_box">
+
+              <img src="images/computer.png" class="img-responsive" alt="">
+
+              <h3 class="text-center">Monitor</h3>
+              
+            </div>
+            
+          </div>
+
+          <div class="col-md-4 col-xs-4">
+            
+            <div class="git_pro_box">
+
+              <img src="images/warning.png" class="img-responsive" alt="">
+
+              <h3 class="text-center">Alert</h3>
+              
+            </div>
+
+          </div>
+
+          <div class="col-md-4 col-xs-4">
+                   
+                   <div class="git_pro_box">
+
+              <img src="images/analytics.png" class="img-responsive" alt="">
+
+              <h3 class="text-center">Report</h3>
+              
+            </div>
+
+
+          </div>
+          
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="col-md-3">
+      
+    </div>
+
+   </div>
+    
+</div>
+
+
+</header>
+<!-- /header -->
+
+
+<!-- git projects section -->
+      
+       <section class="Controller_section">
+         
+         <div class="container">
+
+          <div class="row">
+
+            <div class="col-md-2 col-sm-1">
+              
+            </div>
+                  
+                  <div class="col-md-8 col-sm-10">
+                    
+                    <p class="text-center wow fadeInLeft"> This controller will continuously watch ingresses in the namespace it is running, and automatically 
+                    <br>
+                    add / remove monitors in any of the uptime checkers. With the help of this solution, you can keep a <br> 
+                  check on your services and see whether they're up and running and live. </p>
+                     
+                     <ul class="list-inline text-center forks_btn wow swing">
+                     
+                       <li> <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/watch" data-show-count="true" aria-label="Follow @watch on GitHub">Watch</a> </li>
+
+<li> <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ntkme/github-buttons" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a> </li>
+
+<li><!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ntkme/github-buttons/fork" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a></li>
+                     
+                     </ul>
+
+                  </div>
+
+            <div class="col-md-2 col-sm-1">
+              
+            </div>
+            
+          </div>
+
+          <div class="row">
+            
+          </div>
+
+          <div class="row">
+            
+            <div class="download_buttons_container">
+        
+              <div class="col-md-12">
+
+                <div class="buttons_center_download">
+                  
+                  <ul class="list-inline text-center">
+
+                    <li> <button type="button" class="btn btn-success download_data text-uppercase wow bounceInUp"> <i class="fa fa-download"> </i> download load  </button>
+                   </li>
+
+                  
+                   <li> <button type="button" class="btn btn-success github_btn text-uppercase wow bounceInDown"> <i class="fa fa-github gitc"></i>
+
+ Visit our GitHub Repository  </button> </li>
+                  
+                  </ul>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+          
+         </div>
+
+      </section>
+ 
+      <!-- end of git projects section  -->
+
+    <!-- Kubernetes section -->
+     
+     <section class="Kubernetes_section">
+      
+
+      <div class="container">
+        
+        <div class="row">
+
+          <div class="col-md-1 col-sm-12 col-xs-12">
+          
+        </div>
+
+        <div class="col-md-10 col-sm-12 col-xs-12">
+          
+          <div class="row">
+
+            <div class="col-md-7 col-xs-12">
+              
+              <h4> A Kubernetes Controller to watch your ingresses </h4>
+
+              <p> This controller will continuously watch ingresses in the namespace it is running, and automatically add / remove monitors in any of the uptime checkers. With the help of this solution, you can keep a check on your services and see whether they're up and running and live.
+                     <br><br>
+                    This controller will continuously watch ingresses in the namespace it is running, and automatically add / remove monitors in any of the uptime checkers. With the help of this solution, you can keep a check on your services and see whether they're up and running and live. </p>
+
+            </div>
+
+            <div class="col-md-5 col-sm-12 col-xs-12">
+
+              <h4> liveness alerts for your endpoints. </h4>
+
+              <p> 
+
+                     This controller will continuously watch ingresses in the namespace it is running, and automatically add / remove monitors in any of the uptime checkers. With the help of this solution, you can keep a check on your services and see whether they're up and running and live.
+                     <br><br>
+This controller will continuously watch ingresses in the namespace it is running, and automatically add / remove monitors in any of the uptime checkers. With the help of this solution, you can keep a check on your services and see whether they're up and running and live.
+
+
+               </p>
+              
+            </div>
+            
+          </div>
+          
+        </div>
+
+        <div class="col-md-1 col-sm-12 col-xs-12">
+          
+        </div>
+
+          
+        </div>
+
+        <div class="row">
+
+            <div class="slack_container">
+
+              <button type="submit" class="btn btn-success slack_btn text-uppercase">Join us our Slack Channel 
+                <span class="badge slack_bg"> <img src="images/slack.png" class="img-responsive" alt=""> </span></button>    
+          
+              
+            </div>
+
+        </div>
+
+      </div>
+
+      
+     </section>
+
+    <!-- end of Kubernetes section -->
+
+    <!--  twitter section  -->
+      
+      <section class="twitter_section">
+
+        <div class="container">
+
+          <div class="row">
+            
+            <div class="col-md-2 col-sm-12 col-xs-12">
+              
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+
+              <div class="twitter_content">
+
+                <h3 class="wow zoomIn"> Join Us on our twitter  </h3>
+
+                <h4 class="wow bounceIn"> For Latest news and Updates. </h4>
+
+                <button type="submit" class="btn btn-default join_twitter text-uppercase"> Join us <span class="fa fa-twitter twitter_icon"> </span> </button>
+                
+              </div>
+              
+            </div>
+
+          
+            <div class="col-md-5 col-sm-6 col-xs-12">
+             
+             <div class="twitter_box">
+                 <a class="twitter-timeline" data-width="100%" data-height="300" href="https://twitter.com/stakater?ref_src=twsrc%5Etfw">Tweets by stakater</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                             
+             </div>
+
+
+              
+            </div>
+
+          </div>
+          
+        </div>
+        
+      </section>
+
+    <!--  twitter section  -->
+
+    <!-- customers section -->
+     
+     <section class="customers_section">
+
+      <div class="container">
+        
+        <h2 class="text-center"> Our Customers Say Things Like This... </h2>
+
+        <p class="text-center wow pulse"> People love our fast transfers, fair exchange rates, and world-class customer service.<br> 
+That’s why we're rated as excellent on Trustpilot. </p>
+
+      </div>
+
+      <div class="container">
+  <div class="row">
+    <div class='col-md-offset-2 col-md-8 text-center'>
+    
+    </div>
+  </div>
+  <div class='row'>
+    <div class='col-md-offset-2 col-md-8 bg-slider'>
+      <div class="carousel slide slider_con" data-ride="carousel" id="quote-carousel">
+        <!-- Bottom Carousel Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#quote-carousel" data-slide-to="1"></li>
+          <li data-target="#quote-carousel" data-slide-to="2"></li>
+        </ol>
+        
+        <!-- Carousel Slides / Quotes -->
+        <div class="carousel-inner">
+        
+          <!-- Quote 1 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+
+
+               <div class="col-md-12">
+
+                <h6> “ The redQ team works really hard to ensure high level of quality. hey keep up with the deadlines as well. They are flexible and respond quickly on changing demands. We’ve worked with them on many projects and definitely we’ll keep on cooperating.” </h6>
+                  
+                </div> 
+
+              </div>
+
+              <div class="row">
+
+
+                <div class="col-md-12">
+
+                  <div class="row">
+
+                    <div class="col-md-2 col-xs-12">
+
+                      <img class="img-circle team_img" src="images/team1.png" style="width: 80px;height:80px;">
+                      
+                    </div>
+
+                    <div class="col-md-4 col-xs-12">
+
+                     <div class="team_head_content">
+
+                      <span class="team_name"> Malte Kramer </span>
+                     
+                     <span class="team_lux"> @luxuryPresence </span>
+                     
+                       
+                     </div>
+
+                    </div>
+
+                    
+                    <div class="col-md-6">
+
+                     <div class="date">
+                            
+                            <ul class="list-inline date_content">
+                            
+                              <li class="time"> 3.53 </li>
+
+                              <li class="time time_z"> PM </li>
+
+                              <li> - Jan 2018 </li>
+                            
+                            </ul>
+
+                     </div>
+
+                    </div>
+                    
+                  </div>
+                  
+                </div>
+
+
+                
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+
+
+               <div class="col-md-12">
+
+                <h6> “ The redQ team works really hard to ensure high level of quality. hey keep up with the deadlines as well. They are flexible and respond quickly on changing demands. We’ve worked with them on many projects and definitely we’ll keep on cooperating.” </h6>
+                  
+                </div> 
+
+              </div>
+
+              <div class="row">
+
+
+                <div class="col-md-12">
+
+                  <div class="row">
+
+                    <div class="col-md-2 col-xs-12">
+
+                      <img class="img-circle team_img" src="images/team1.png" style="width: 80px;height:80px;">
+                      
+                    </div>
+
+                    <div class="col-md-4 col-xs-12">
+
+                     <div class="team_head_content">
+
+                      <span class="team_name"> Malte Kramer </span>
+                     
+                     <span class="team_lux"> @luxuryPresence </span>
+                     
+                       
+                     </div>
+
+                    </div>
+
+                    
+                    <div class="col-md-6">
+
+                     <div class="date">
+                            
+                            <ul class="list-inline date_content">
+                            
+                              <li class="time"> 3.53 </li>
+
+                              <li class="time time_z"> PM </li>
+
+                              <li> - Jan 2018 </li>
+                            
+                            </ul>
+
+                     </div>
+
+                    </div>
+                    
+                  </div>
+                  
+                </div>
+
+
+                
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 3 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+
+
+               <div class="col-md-12">
+
+                <h6> “ The redQ team works really hard to ensure high level of quality. hey keep up with the deadlines as well. They are flexible and respond quickly on changing demands. We’ve worked with them on many projects and definitely we’ll keep on cooperating.” </h6>
+                  
+                </div> 
+
+              </div>
+
+              <div class="row">
+
+
+                <div class="col-md-12">
+
+                  <div class="row">
+
+                    <div class="col-md-2 col-xs-12">
+
+                      <img class="img-circle team_img" src="images/team1.png" style="width: 80px;height:80px;">
+                      
+                    </div>
+
+                    <div class="col-md-4 col-xs-12">
+
+                     <div class="team_head_content">
+
+                      <span class="team_name"> Malte Kramer </span>
+                     
+                     <span class="team_lux"> @luxuryPresence </span>
+                     
+                       
+                     </div>
+
+                    </div>
+
+                    
+                    <div class="col-md-6">
+
+                     <div class="date">
+                            
+                            <ul class="list-inline date_content">
+                            
+                              <li class="time"> 3.53 </li>
+
+                              <li class="time time_z"> PM </li>
+
+                              <li> - Jan 2018 </li>
+                            
+                            </ul>
+
+                     </div>
+
+                    </div>
+                    
+                  </div>
+                  
+                </div>
+
+
+                
+              </div>
+            </blockquote>
+          </div>
+        </div>
+        
+      </div>                          
+
+    </div>
+
+  </div>
+
+</div>
+       
+     </section>
+
+    <!-- customers section -->
+
+
+    <!--  blog section  -->
+     
+     <section class="blog_section">
+       
+       <div class="container">
+
+         <h2 class="text-center"> Our latest Blog </h2>
+
+
+         <p class="text-center"> People love our fast transfers, fair exchange rates, and world-class customer service. <br>
+That’s why we're rated as excellent on Trustpilot. </p>
+
+         
+         <div class="row">
+
+          <div class="col-md-1 col-sm-12 col-xs-12">
+            
+          </div>
+
+          <div class="col-md-6 col-sm-12 col-xs-12">
+
+            <div class="blog_container">
+              
+              <img src="images/blog1.png" class="img-responsive" alt="">
+              
+              <div class="blog_content">
+                
+                <ul class="list-inline blog_icons">
+              
+                <li> <button type="button" class="btn btn-primary soc">
+                <a href="#"> <span class="badge bad_trans"> <img src="images/aziz.png" class="img-responsive" alt=""> </span> Aziz </a>
+              </button> </li>
+                
+                <li> <button type="button" class="btn btn-primary soc">
+                <a href="#"><span class="badge bad_trans"> <img src="images/clock.png" class="img-responsive" alt=""> </span> 2 day ago </a>
+              </button> </li>
+                
+                <li> <button type="button" class="btn btn-primary soc">
+                <a href="#"> <span class="badge bad_trans"> <img src="images/comments.png" class="img-responsive" alt=""> </span> 44 Comments </a>
+              </button> </li>
+                
+              </ul>
+
+              <h3>  Full-time Developer vs Freelancer vs Software 
+Development Company </h3>
+
+               <p>
+                 Let’s go back once again to the difficult decision of what to do when hiring a software developer. This is a strategic step that will decide the end product’s future, leading to success or failure with even chances.
+               </p>
+
+               <div class="row">
+
+                <div class="buttons_con">
+
+
+                  <div class="col-md-12 col-xs-12">
+
+                    <ul class="list-inline">
+
+                      <li> <button type="submit" class="btn btn btn-default update"> updates </button>
+ </li>
+                    
+                    <li><button type="submit" class="btn btn-info release"> releases </button>
+</li>
+
+                    <li><button type="submit" class="btn btn-info release"> helm </button>
+               </li>
+
+                    </ul>
+
+                    
+                  </div>
+
+                </div>
+                 
+               </div>
+
+
+              </div>
+
+            </div>
+            
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12">
+
+            <div class="blog_container2">
+              
+             <img src="images/blog2.png" class="img-responsive" alt="">
+
+              <div class="blog_content2">
+
+
+                <ul class="list-inline blog_icons2">
+              
+                <li> <button type="button" class="btn btn-primary soc2">
+                <a href="#"> <span class="badge bad_trans2"> <img src="images/aziz.png" class="img-responsive" alt=""> </span> Aziz </a>
+              </button> </li>
+                
+                <li> <button type="button" class="btn btn-primary soc2">
+                <a href="#"><span class="badge bad_trans2"> <img src="images/clock.png" class="img-responsive" alt=""> </span> 2 day ago </a>
+              </button> </li>
+                
+                <li> <button type="button" class="btn btn-primary soc2">
+                <a href="#"> <span class="badge bad_trans2"> <img src="images/comments.png" class="img-responsive" alt=""> </span> 44 Comments </a>
+              </button> </li>
+                
+              </ul>
+
+              <div class="team_content">
+
+                <h3>  How to Lead an IT Team </h3>
+
+               <p>
+                 Let’s go back once again to the difficult decision of what to do when hiring a software developer. This is a strategic step that will decide the end product’s future, leading to success or failure with
+               </p>
+                
+              
+
+                <div class="row">
+
+                <div class="buttons_con2">
+
+                  <div class="col-md-12 col-xs-12">
+                    
+                    <ul class="list-inline">
+
+                      <li> <button type="submit" class="btn btn btn-default update"> updates </button>
+ </li>
+
+ <li><button type="submit" class="btn btn-info release"> releases </button>
+</li>
+
+                    </ul>
+
+
+                  </div>
+  
+                </div>
+                 
+               </div>
+
+             </div>
+                
+
+
+              </div>
+
+            </div>
+            
+          </div>
+
+          <div class="col-md-1 col-sm-12 col-xs-12">
+            
+          </div>
+           
+         </div>
+
+
+
+         
+       </div>
+
+     </section>
+
+    <!--  blog section  -->
+
+    <!-- footer -->
+    
+    <footer>
+
+      <div class="container">
+        
+        <div class="row">
+          
+          <div class="col-md-2 col-sm-1 col-xs-12">
+          
+        </div>
+
+        <div class="col-md-8 col-sm-10">
+
+          <div class="contact_box">
+
+            <div class="row">
+              
+              <div class="col-md-1 col-sm-1 col-xs-1">
+                
+              </div>
+
+              <div class="col-md-6 col-sm-12 col-xs-12">
+
+                <p>Create, manage and scale your <br> DevOps Environment with us!</p>
+                
+              </div>
+
+              <div class="col-md-1 col-sm-1 col-xs-12">
+                
+              </div>
+
+              <div class="col-md-3 col-sm-12 col-xs-12">
+
+                <button type="submit" class="btn btn-danger contact_btn">
+                  
+                  Contact us
+
+                </button>
+                
+              </div>
+
+            </div>
+            
+          </div>
+          
+        </div>
+
+        <div class="col-md-2 col-sm-1 col-xs-12">
+          
+        </div>
+
+        </div>
+
+
+        <div class="row">
+          
+          <div class="col-md-12">
+            
+            <div class="footer_content">
+              
+              <h3 class="text-center"> Stakater  </h3>
+
+              <ul class="list-inline footer_menu text-center">
+              
+                <li> <a href="#"> Home</a>  </li>
+                
+                <li> <a href="#"> Launch</a>   </li>
+                
+                <li> <a href="#"> Services</a>  </li>
+              
+                <li> <a href="#"> Team</a>  </li>
+                
+                <li> <a href="#"> Contact</a> </li>
+
+               </ul>
+
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-3 col-sm-12 col-xs-12">
+            
+          </div>
+
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            
+            <div class="row">
+
+              <div class="col-md-3 col-sm-12 col-xs-12">
+              
+                <h6 class="copy">©2017 Stakater.com</h6>               
+
+            </div>
+
+            <div class="col-md-5 col-xs-12">
+
+              <ul class="list-inline footer_icons_so text-center">
+                
+                <li class="copy"> <h6>Follow Us</h6> </li>
+
+                <li> <a href="#"> <i class="fa fa-twitter f_icons"> </i> </a> </li>
+                
+                <li> <a href="#"> <i class="fa fa-facebook f_icons"> </i> </a> </li>
+              
+              </ul>
+              
+            </div>
+
+            <div class="col-md-4 col-sm-12 col-xs-12">
+
+              <h6 class="email"> hello@stakater.com </h6>
+              
+            </div>
+              
+            </div>
+
+          </div>
+
+          <div class="col-md-3 col-xs-12">
+            
+          </div>
+          
+        </div>
+
+      </div>
+      
+    </footer>
+
+    <!-- footer -->
+    
+
+    <!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+</body>
+
+</html>
